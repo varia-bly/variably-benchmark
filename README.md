@@ -49,7 +49,7 @@ The raw per-sample outputs from our run live in
 aggregations directly - no API key, no rescoring needed.
 
 ```bash
-git clone https://github.com/westcottian/variably-benchmark
+git clone https://github.com/varia-bly/variably-benchmark
 cd variably-benchmark/rgb
 python3 compare.py        # Prints AUC / precision / recall / FPR / FNR
                           # straight from the committed scores.
