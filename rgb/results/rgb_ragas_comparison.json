@@ -1,0 +1,4738 @@
+[
+  {
+    "evaluation_id": "2a5db195-bbdc-4756-b659-07dbb3b36740",
+    "rgb_id": 0,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0189122c-47f2-4c1f-9ae7-cb7ef479e439",
+    "rgb_id": 0,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.3333333333333333
+  },
+  {
+    "evaluation_id": "383efa90-88fc-4833-9f12-7c7fb904aefe",
+    "rgb_id": 1,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a97c87c4-d40e-40ee-8214-75bcf2ccdbff",
+    "rgb_id": 1,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "0d099bbb-1f2a-4cc5-a304-601010f40831",
+    "rgb_id": 2,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c6b236d9-ecbf-4058-9a02-7c32799a9a76",
+    "rgb_id": 2,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4fef0512-337d-4908-8987-c034ac5133c1",
+    "rgb_id": 3,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4750ebf7-a34b-4522-8f18-5a96debe543a",
+    "rgb_id": 3,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3e572072-4f14-43f2-8def-df3ec89a9b12",
+    "rgb_id": 4,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "683635a0-6730-4a63-b7db-7bc955891004",
+    "rgb_id": 4,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "345bab21-ff91-4af6-b6c3-3c91e5e4ae4a",
+    "rgb_id": 5,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "80b268db-72bf-4523-929d-8f6db53fa9ff",
+    "rgb_id": 5,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "53a4681b-4c0b-437f-8f90-88cb7c3c4e9e",
+    "rgb_id": 6,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "459fa297-8378-432f-835a-0f8e21398b82",
+    "rgb_id": 6,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d42d5964-0fe6-4226-b76a-881a4d719132",
+    "rgb_id": 7,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d8ca54d5-b1ff-4a3b-af3f-392965a9123f",
+    "rgb_id": 7,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1efc58a2-485b-4f85-94f3-65b366f1855d",
+    "rgb_id": 8,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "54b4b572-2634-4fdb-856c-6dc68de2ebe6",
+    "rgb_id": 8,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "78b7c500-b3f7-4ced-88fe-3687e33b5e22",
+    "rgb_id": 9,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7ee5b6cf-9e6a-46e7-889e-b87761040894",
+    "rgb_id": 9,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "118f1c69-33a2-469c-85c3-f6ede0b44c18",
+    "rgb_id": 10,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "503c504b-d55d-4c4e-9f20-f2618ab4442b",
+    "rgb_id": 10,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "31019ac3-332f-4623-a2a7-4819368985f8",
+    "rgb_id": 11,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0b2991f5-0323-4102-8625-492f73c377b6",
+    "rgb_id": 11,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "226affd6-5df0-4967-b017-9289f20d75f7",
+    "rgb_id": 12,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b993489f-bd6f-462c-aefc-bda498038bef",
+    "rgb_id": 12,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "913074a6-91a6-4418-bd0d-e595322f0db0",
+    "rgb_id": 13,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4d70ffc4-c81a-4010-89e0-96b90cd5aa2e",
+    "rgb_id": 13,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1d9d6bb2-ad1e-4a54-8f51-f816d01f4abe",
+    "rgb_id": 14,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e4dd4beb-d24a-4817-9f9e-3a51c64f91c1",
+    "rgb_id": 14,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "386a8417-f49e-40f6-9a77-0270752670dc",
+    "rgb_id": 15,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fa703576-716d-47b1-8be1-d169d0f1109a",
+    "rgb_id": 15,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5f4c626c-26d3-4fa7-9281-2f9ba78a998e",
+    "rgb_id": 16,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "12254e45-338c-4dc4-a47c-d110ca8ca78b",
+    "rgb_id": 16,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a507dd12-7841-4ad2-a6f4-3e369409f693",
+    "rgb_id": 17,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "65e9d8bd-45cf-4de0-99ee-0efc11532e50",
+    "rgb_id": 17,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1f201128-ba86-4ca0-b826-df353971a9fe",
+    "rgb_id": 18,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9d990be7-c196-41b4-8c47-72c762b0ed0f",
+    "rgb_id": 18,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d9a1c312-e90a-4890-8378-73d591b9679b",
+    "rgb_id": 19,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "767de0d3-02e6-49bd-a8b2-93b4e747f482",
+    "rgb_id": 19,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f2d86522-59ad-4115-b0f5-525b75609a6d",
+    "rgb_id": 20,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "19bb4ac3-00b2-4e1b-a88c-165a97b32c7c",
+    "rgb_id": 20,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1a0a0ec6-4b5c-4a59-9401-5e44bce8c51b",
+    "rgb_id": 21,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b577b9a9-3b72-4d75-86e0-dd04b969c3fc",
+    "rgb_id": 21,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c0bf698d-ba77-47f3-beab-f5df8cadf817",
+    "rgb_id": 22,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8914356b-81f2-42ef-8af3-42f6136a1e2c",
+    "rgb_id": 22,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "32a43aea-289f-4df0-8d56-4a8af4a8005c",
+    "rgb_id": 23,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "58cd47e8-4590-4681-97fb-3706a5acc0f5",
+    "rgb_id": 23,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "c5a77ca1-629a-48de-a2dc-52c75f4ec727",
+    "rgb_id": 24,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2f8af820-7d55-46c3-91ac-b869f38a4c13",
+    "rgb_id": 24,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "0e147a22-494a-4dc9-b0f9-6e414a9db170",
+    "rgb_id": 25,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "15e9e572-a00d-4cdc-a11e-83a9f124da33",
+    "rgb_id": 25,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f871af7b-2bc9-460b-97e5-2c5f36668182",
+    "rgb_id": 26,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "616194b0-51b8-4cc9-8b48-5ad0d890e38d",
+    "rgb_id": 26,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d177aad2-3c62-4067-ba1c-e2da3125672d",
+    "rgb_id": 27,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b80731ec-a4f6-45f9-a99d-457d2a945aca",
+    "rgb_id": 27,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "ee62286a-2f48-4242-bc81-e061cec38b83",
+    "rgb_id": 28,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7498c420-4392-41cb-b16c-c12f3e5f1d7f",
+    "rgb_id": 28,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d895a28b-eb46-4254-8cd7-219cf716d217",
+    "rgb_id": 29,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f94326b8-7463-4cf4-8103-68c560fa90fc",
+    "rgb_id": 29,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "4fe8f39a-cf60-4e08-9dd6-7a033a6ad457",
+    "rgb_id": 30,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "50035d55-c3be-458c-a50f-f7e5c798242f",
+    "rgb_id": 30,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "bfd9b3ab-4f16-4a9b-9fb2-aa42ab6135e9",
+    "rgb_id": 31,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e8c0c3ca-ddd7-4249-8a75-0f966c0bfe08",
+    "rgb_id": 31,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "be1ec0b2-f250-4c07-8010-488896a3061a",
+    "rgb_id": 32,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "14dc6dd1-79a6-439d-b200-f0935e64a3ea",
+    "rgb_id": 32,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "7bfde740-6650-4e64-9f34-c064f14c05b6",
+    "rgb_id": 33,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c3da4b0a-c92c-4072-84bb-ff85982a3f49",
+    "rgb_id": 33,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "843b1aa3-3941-4cc4-b0f0-e01a9f809fe0",
+    "rgb_id": 34,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ca737e64-602e-4fc4-ad27-0954054dec2b",
+    "rgb_id": 34,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "22f42151-6bfc-4107-83e0-ee6053a86359",
+    "rgb_id": 35,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b1ec2229-77df-4b03-9a1f-ca92f0a45719",
+    "rgb_id": 35,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d9a55bc6-3a90-454c-bfdb-b31f34299cbd",
+    "rgb_id": 36,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "74c2c9d5-167c-472e-985a-f3f03779a044",
+    "rgb_id": 36,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "953bb5c9-470d-4b83-8ce0-ffa511ae8b91",
+    "rgb_id": 37,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d2f71315-4991-4649-bdaa-53a251ec2c63",
+    "rgb_id": 37,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "9759367b-8e18-46d8-a719-a3d1ac7fee98",
+    "rgb_id": 38,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9796b300-f68d-44a9-b20a-1979915073b8",
+    "rgb_id": 38,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "ad2215a6-21e5-453f-ba0e-3c537b7107aa",
+    "rgb_id": 39,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "29c4eff9-5fc1-4159-ad3a-8ee46b3adeb9",
+    "rgb_id": 39,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.8333333333333334
+  },
+  {
+    "evaluation_id": "276c8658-1c5f-45bc-b173-e0d0e5a81ce0",
+    "rgb_id": 40,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "10583442-32ba-43ea-bce4-cf0985264e39",
+    "rgb_id": 40,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "6614784b-58dd-43f2-9e5b-9c0afada4208",
+    "rgb_id": 41,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "008ac50b-f818-49b2-a898-993b58da01f5",
+    "rgb_id": 41,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "089a0a2a-a8d1-4646-8c34-79357e8ce6eb",
+    "rgb_id": 42,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cb976f8f-ab4b-45b3-989b-0d3cb96d7e0a",
+    "rgb_id": 42,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d8372730-2c2a-4e82-968b-aab1ab3910c7",
+    "rgb_id": 43,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8399c3ca-cf80-43e3-a6f8-b222a671ab78",
+    "rgb_id": 43,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d0d26912-29ca-44e8-b00a-9364c483b8e2",
+    "rgb_id": 44,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "594077bb-40c9-498b-bd7b-ac15372c1852",
+    "rgb_id": 44,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "15709e41-c370-4b40-aa54-b0dcc8a1fd76",
+    "rgb_id": 45,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0f4aa46c-d900-46b8-8110-92713a4e9570",
+    "rgb_id": 45,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a6de8c97-8547-4561-bbde-37c48b095cc9",
+    "rgb_id": 46,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "07f134b0-cbce-4483-8be9-62e526c0c72d",
+    "rgb_id": 46,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "22303a0b-5039-4203-acbe-e05e59420422",
+    "rgb_id": 47,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "450cb0b1-0f82-47a6-b6e9-e75588d0c8ae",
+    "rgb_id": 47,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0b8b2d0d-5912-488a-a385-1339e1a41bef",
+    "rgb_id": 48,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "186acc86-b6c5-4566-9158-2af497833c83",
+    "rgb_id": 48,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b586be39-8aaf-441e-8080-db1f3fdcd8cd",
+    "rgb_id": 49,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "6c7dbcbf-a6fb-4147-8de2-eb80b508b3bc",
+    "rgb_id": 49,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b28d06f3-8cd5-4bcc-be80-f54f2ce69745",
+    "rgb_id": 50,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "49aade1f-9d08-4d5a-9cfc-8316aaf1badb",
+    "rgb_id": 50,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7b945173-23ec-4e4f-89d8-e9335e4276e3",
+    "rgb_id": 51,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "24e63a52-9e2c-4461-bb66-3c70de38e4a7",
+    "rgb_id": 51,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ccd580c1-162d-4a88-8b82-7c9ff76009af",
+    "rgb_id": 52,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ab9f8589-4354-4fdf-bb44-feec80219a5f",
+    "rgb_id": 52,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5d9f3dc9-4db1-4eac-9c2d-e98915fc6124",
+    "rgb_id": 53,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d6500ce8-5545-4f70-ad84-272759399824",
+    "rgb_id": 53,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8b75f47a-1890-4305-84e3-6006084c0180",
+    "rgb_id": 54,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cc075056-b2a4-4777-a6ad-8bd30eaf1ba7",
+    "rgb_id": 54,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "e1155bd4-4345-4f38-8ebb-a86dda76d092",
+    "rgb_id": 55,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3342f2ea-e158-417a-8b74-7d3f09bebac2",
+    "rgb_id": 55,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4339f5ec-046f-4b04-91a3-a3efde2ec607",
+    "rgb_id": 56,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "da1830a0-b255-4c89-a1d7-e8cbbc6b11aa",
+    "rgb_id": 56,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "390a1108-b09e-48b9-ab81-11fa54c31405",
+    "rgb_id": 57,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "bfd89c79-1edf-447f-9df2-1e8b63680bc8",
+    "rgb_id": 57,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "edabb6d9-6b0f-44ff-92b2-cc56439c8425",
+    "rgb_id": 58,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c33d715c-38f7-44c2-9911-d60fd50036a5",
+    "rgb_id": 58,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "83d4d5b3-ce07-412e-acbe-2a67e9265cf1",
+    "rgb_id": 59,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "684cfc9e-a687-402f-aaa5-ab7adea33c56",
+    "rgb_id": 59,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e2699093-4a3d-438e-bff3-18f3c584ea19",
+    "rgb_id": 60,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "518bb0b8-2250-4905-9125-ce8b99830864",
+    "rgb_id": 60,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4227889c-d6dc-4f93-8588-d9d87d991f81",
+    "rgb_id": 61,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "05ea6430-1b2e-494f-a03d-a8c8b1d332ad",
+    "rgb_id": 61,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "5169ab33-ed29-4d13-aa11-7d06eb3a299b",
+    "rgb_id": 62,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "de71deb2-78b8-450f-8e74-7c783d634194",
+    "rgb_id": 62,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1d207a1b-63ba-4047-9b72-aebc82343a29",
+    "rgb_id": 63,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "311a8369-affc-469d-9ece-92e7333345ea",
+    "rgb_id": 63,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b1ef60b5-e33c-4838-b4af-f8fee0df1b28",
+    "rgb_id": 64,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "47f90766-beae-4b58-86aa-e059fdf6f462",
+    "rgb_id": 64,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4d85c49d-7df2-40ea-977c-7bcf9cf5cc43",
+    "rgb_id": 65,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "200e5f5a-f0f3-4382-b02c-e2301f98f131",
+    "rgb_id": 65,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c9eacbf6-5d9b-4516-80ad-6204ecda4331",
+    "rgb_id": 66,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "00777b05-4177-4124-a936-46916fe5ca61",
+    "rgb_id": 66,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ee238c78-5b84-4a22-bcc5-156b5990351e",
+    "rgb_id": 67,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "dd7d6fb5-d709-4f6d-b79a-080f8526b1f6",
+    "rgb_id": 67,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ffe45b12-f7aa-4651-b6fe-c0a5b2adfc80",
+    "rgb_id": 68,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9adc120c-6f74-4ffc-b1eb-f6d9ca465114",
+    "rgb_id": 68,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "01381f1d-f618-4992-9ba6-7fda94f1aa23",
+    "rgb_id": 69,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0ac97411-cb28-4578-8882-3543a32aaf21",
+    "rgb_id": 69,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0d7ffdb9-07b3-4e6c-8b72-40ea2f6a38e2",
+    "rgb_id": 70,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1ce09b0e-0528-4488-814e-8fca76343a87",
+    "rgb_id": 70,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "990a9efc-b9f0-4b06-82ec-e196848dadb7",
+    "rgb_id": 71,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9d7a3563-17f0-465d-8311-5d9879686318",
+    "rgb_id": 71,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "79b93180-7505-432c-8a9b-c96c92650b8a",
+    "rgb_id": 72,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.6666666666666666
+  },
+  {
+    "evaluation_id": "b4009cf4-8fa7-479c-8020-13a7636a3385",
+    "rgb_id": 72,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.3333333333333333
+  },
+  {
+    "evaluation_id": "a3b467bf-96e2-49b8-83be-f5a94f99e51b",
+    "rgb_id": 73,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "911b28a8-0e49-499d-9d1f-828c0454ba9e",
+    "rgb_id": 73,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "8b9dd858-c505-4258-9b68-041838965732",
+    "rgb_id": 74,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "feb33b2c-3fe1-4126-bd25-c4253d0e8015",
+    "rgb_id": 74,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "48dfaee0-2fc0-4fd4-b1d0-45891c57d31e",
+    "rgb_id": 75,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fda60930-66d5-45c5-b164-a956a6c30d62",
+    "rgb_id": 75,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "92324e48-19a0-4d02-baca-5536b3421052",
+    "rgb_id": 76,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "73557818-97bb-4e3f-b886-167d8b38c16d",
+    "rgb_id": 76,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5fbcb2bb-62b5-4329-be1c-963b058acdc9",
+    "rgb_id": 77,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0f3091bd-8825-4596-9535-6aced4f4d83c",
+    "rgb_id": 77,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "cc51e8b0-5bdf-4c39-a695-0c7d8cc10cc6",
+    "rgb_id": 78,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d9e3b100-b846-44aa-8220-c132d850d007",
+    "rgb_id": 78,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "e0c43c46-06d5-40f7-b324-989f5ae70623",
+    "rgb_id": 79,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8389f920-2ac5-4e06-b50a-cd0329100487",
+    "rgb_id": 79,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "43ba03d4-8773-4f70-b60c-f729ee29e7d7",
+    "rgb_id": 80,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cd7d6690-0dce-42b9-ad4b-37fd6b54d865",
+    "rgb_id": 80,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "8d739473-8551-4892-97f1-00d87d8273d6",
+    "rgb_id": 81,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "de4bc487-6c29-4fa8-8cae-68fe8140ded4",
+    "rgb_id": 81,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cdd1cd00-2198-4bab-b38d-7428a6743792",
+    "rgb_id": 82,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "855466fa-46e4-44e4-a4e8-43dc34b372c3",
+    "rgb_id": 82,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "efb3d38f-2738-4181-9f65-43b833fa6f7a",
+    "rgb_id": 84,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1e39d79c-3e1a-469d-bdc7-c9ed949ff0aa",
+    "rgb_id": 84,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4af4d663-7a01-4580-866a-d2d7d519407d",
+    "rgb_id": 85,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d68b19eb-c7bb-41e0-902c-4f3084ada706",
+    "rgb_id": 85,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "987d439e-7242-4580-9e92-0941267eee92",
+    "rgb_id": 86,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c3f9ca7d-b7e1-46ee-8110-89b02b806c66",
+    "rgb_id": 86,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "624675aa-28b3-4023-b163-6b83c5ae664f",
+    "rgb_id": 87,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b5074362-d996-4f3e-a518-7ad8c58bfa32",
+    "rgb_id": 87,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a461d0a9-f91b-45e7-bcc4-cbffaca4bd5c",
+    "rgb_id": 88,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d8789b5a-9f66-4c04-9f92-97cbe802d52b",
+    "rgb_id": 88,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b7f2b89d-7baf-4c30-814c-3b5979b7e048",
+    "rgb_id": 89,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f7ba4705-ebfc-44f4-9358-982b59a76f12",
+    "rgb_id": 89,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3f47d062-ad33-4695-b472-ea7159ca8fbe",
+    "rgb_id": 90,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c95df3d5-b3c5-4412-a5f0-67ce21cb1a3a",
+    "rgb_id": 90,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "2a779023-54eb-4894-a1c5-d508fe575ea0",
+    "rgb_id": 91,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2690029f-f03b-4ddd-863a-0759ad616312",
+    "rgb_id": 91,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "89d968fe-ab59-47d5-a1ae-cac3a59c73ae",
+    "rgb_id": 92,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "48cb6c33-6a18-45f4-9482-144078a840ba",
+    "rgb_id": 92,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d45ce565-1e6e-4921-9114-1f9febbc0dc0",
+    "rgb_id": 93,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1252354f-1167-48f7-ab98-acb3fdfa15da",
+    "rgb_id": 93,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b8a41399-bd00-450a-a605-1bc828d747dd",
+    "rgb_id": 94,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3f78ab87-322d-40f3-bcf5-323f51b7976c",
+    "rgb_id": 94,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "021356e0-b06d-4f48-a444-3e32bf11ee76",
+    "rgb_id": 95,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cb068587-d7ed-44e8-bd9e-2400819e110a",
+    "rgb_id": 95,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.75
+  },
+  {
+    "evaluation_id": "c37b9d13-6275-412e-954e-7f609980dfd9",
+    "rgb_id": 96,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ea26c25d-9bf4-4f2c-bf88-5483161540a5",
+    "rgb_id": 96,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "29bd041e-e80a-4bd5-b110-58f8f20e0583",
+    "rgb_id": 97,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7e6ce273-943d-4ebc-b1e5-dd5e9da5d19e",
+    "rgb_id": 97,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ccf4c3b5-c69b-4f2c-a8b8-08da79a9fd43",
+    "rgb_id": 98,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e6fb3a5c-318e-4237-90e6-41812b611a95",
+    "rgb_id": 98,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d76b4632-041e-4fc3-a6c5-ec7e20bb6019",
+    "rgb_id": 99,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "82a89679-aed8-4a35-834d-69c988961f88",
+    "rgb_id": 99,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "748c5947-0701-422e-aadc-c1b88e10130f",
+    "rgb_id": 100,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e4f2d1d1-253e-4fb5-bbb4-6e958fd8e6ba",
+    "rgb_id": 100,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "2e61c187-a4d2-45e0-8124-97dc92dd8628",
+    "rgb_id": 101,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8417d65f-6cf3-43b2-b42a-6b77d74ab335",
+    "rgb_id": 101,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b4d8ab7f-c0ca-43c7-9a46-dcf440d26c0c",
+    "rgb_id": 102,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c41e6d43-b2e2-42a7-bfcd-1c8403075fc2",
+    "rgb_id": 102,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "352e8923-dc34-4dad-b939-1bc497581bd0",
+    "rgb_id": 103,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "bf5ebaa4-a8ce-496c-ac9f-018f5f26459b",
+    "rgb_id": 103,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.25
+  },
+  {
+    "evaluation_id": "667b0a97-08b0-4a76-8a16-fc248625633c",
+    "rgb_id": 104,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "55e5f1df-f576-45d3-a2aa-01b4e13d1260",
+    "rgb_id": 104,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4b051b6c-c773-4a87-86d2-50ffc16dedbf",
+    "rgb_id": 105,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "68ec8dad-28a7-4476-8b83-df1d1c565f29",
+    "rgb_id": 105,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d8499e9c-830c-4aa8-81b5-61dd72d6b05b",
+    "rgb_id": 106,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "921b7bd4-a5ca-4764-b15d-6276c3c0a08e",
+    "rgb_id": 106,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.6666666666666666
+  },
+  {
+    "evaluation_id": "993e8a8f-a287-4125-a49a-2e0013602ff7",
+    "rgb_id": 107,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "54d261d7-951c-4469-8cf7-e4cc408b5bf1",
+    "rgb_id": 107,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "ac4f02b4-27f2-40a1-8fec-206c033a05d0",
+    "rgb_id": 108,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2a739579-ba9c-4a4d-9c11-606cff0175e9",
+    "rgb_id": 108,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "21fe2e9c-3946-47fa-94c2-4a1bc0802385",
+    "rgb_id": 109,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d21671c0-b5fc-4383-885b-5975f65c8885",
+    "rgb_id": 109,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2d32255f-d781-4098-b740-b567a1d254e8",
+    "rgb_id": 110,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "99c0894e-3d51-440a-82a8-7b591f20001e",
+    "rgb_id": 110,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "438a7c80-1bee-4f1c-a91a-2afbdfaafeba",
+    "rgb_id": 111,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cc2c1b74-551e-4e58-8b92-5738609f01ae",
+    "rgb_id": 111,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0167cc74-be69-4c49-9c90-0257f434a9fd",
+    "rgb_id": 112,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "084cf56a-03b1-44f6-889b-9006c4223f9c",
+    "rgb_id": 112,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "9d0f7357-f46b-45d3-9892-9beb5f778f0a",
+    "rgb_id": 113,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1c3430cd-73d2-423c-92b1-b9042b85862f",
+    "rgb_id": 113,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "01ce86e2-1358-461f-a492-d190da2143e8",
+    "rgb_id": 114,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ee03d69e-7f9d-4fa1-a5ac-24e8d56385d0",
+    "rgb_id": 114,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "895e0e2a-f6ea-495f-8645-0704067c4264",
+    "rgb_id": 115,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "da86d841-a571-41c0-a14c-632b1d902ca0",
+    "rgb_id": 115,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "179bfd84-3492-40b5-b020-1a3cd03637b9",
+    "rgb_id": 116,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0fc74e5b-268c-498a-a892-a43c2ec65566",
+    "rgb_id": 116,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "e9768b03-5f1c-4da2-9f12-7f6996e52fcc",
+    "rgb_id": 117,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4cf44b01-0167-4789-8173-9e692b69e66c",
+    "rgb_id": 117,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "8e995063-1db2-40ca-afbe-be9c7aa52f93",
+    "rgb_id": 118,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c778bd82-23c6-4f87-ab59-7d1e03d86f8c",
+    "rgb_id": 118,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d5663856-db07-45b3-998e-3164530daf88",
+    "rgb_id": 119,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ab5d9e69-97d7-460e-8391-f8dc8070d182",
+    "rgb_id": 119,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "95bc55d4-2cc1-4d90-987c-b9246c8f4ca5",
+    "rgb_id": 120,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cf39a1c3-ac71-4783-a89a-07787b19982b",
+    "rgb_id": 120,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "21745b03-153f-4b4e-9944-064ad14f3f17",
+    "rgb_id": 121,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "882dcf9e-5db4-4a25-acd1-91fe889b6ecc",
+    "rgb_id": 121,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "25466712-e997-47df-a44a-767fe6ddbb1b",
+    "rgb_id": 122,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a82ee4c4-1819-4d64-9298-5734428c216c",
+    "rgb_id": 122,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ccbb36ae-7da6-45b4-9f66-ffc82560168e",
+    "rgb_id": 123,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f2a6e81e-40ca-4b1b-8aa8-0a06f11164ed",
+    "rgb_id": 123,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a45ef3a5-84db-4a2c-9d39-a27eadf6d59d",
+    "rgb_id": 124,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e91008b1-1659-40d9-866f-2fb095c2e5a2",
+    "rgb_id": 124,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "67076c4a-9092-438b-9914-9a2d77a2ac10",
+    "rgb_id": 125,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "dfa9ff3c-09a6-4ffe-ae2a-c52e3adefe95",
+    "rgb_id": 125,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f1c959e3-4624-46c7-a3f8-e408c8b431e1",
+    "rgb_id": 126,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0e3d21eb-ab39-493f-b5ea-31767e241f3f",
+    "rgb_id": 126,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "eb27933a-5dae-492b-bbc6-b58bdceb5b2d",
+    "rgb_id": 127,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8b8f3b79-971d-4ceb-a4f3-3da4448be600",
+    "rgb_id": 127,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "7ad792d2-4bd1-4b14-ab78-d28e5cfe5283",
+    "rgb_id": 128,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fa7f700c-8fe2-4114-b7dc-33e08df24bf1",
+    "rgb_id": 128,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "68c1f2cb-6154-4b0f-9546-d6b92589dbe9",
+    "rgb_id": 129,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4c874662-a285-4033-8e58-973ac2d3f6b8",
+    "rgb_id": 129,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "25062163-ede2-4c83-a3f5-197cc482acaf",
+    "rgb_id": 130,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "dd21928c-c715-4f3f-8231-450e302a0cac",
+    "rgb_id": 130,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "82016ea4-86fa-4cfe-a532-169fa42ad8bc",
+    "rgb_id": 131,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "eec8ffb1-6234-4a71-ac57-0ecaab512cef",
+    "rgb_id": 131,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d6e7d128-b42d-455c-af4c-c5fff5570b64",
+    "rgb_id": 132,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "37a05206-f89f-4a60-b9ff-bccaea5c7267",
+    "rgb_id": 132,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a16ae4d3-e916-470c-8691-d247db0c4887",
+    "rgb_id": 133,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7715c43e-590e-4b05-bd91-270c0c547b3e",
+    "rgb_id": 133,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "dae377c6-1480-4cd9-859d-8ffd0e8536c8",
+    "rgb_id": 134,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a2c5e229-6f7e-4b24-b239-d2145ccd1032",
+    "rgb_id": 134,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "02b7624d-ca84-4ea5-8258-cb0912d86cec",
+    "rgb_id": 135,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1c492b5f-7ff4-469a-9c5e-7bad1091525c",
+    "rgb_id": 135,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b68b4ac4-1d68-4ed4-9fb2-4710a4d5fa9d",
+    "rgb_id": 136,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4b6890d8-fb4b-4372-999b-de50b4f28ca0",
+    "rgb_id": 136,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f471d41f-c145-46a8-a82f-0c44d7df6305",
+    "rgb_id": 137,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3cff808f-7b94-435b-a492-571de316bfb3",
+    "rgb_id": 137,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2da55392-36f5-44db-af99-acdd4cd52891",
+    "rgb_id": 138,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "77f034da-0039-4b68-8544-2865bd64fd3e",
+    "rgb_id": 138,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "9c990010-cf25-4b83-b2fe-cf2d76ee97b0",
+    "rgb_id": 139,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c950f929-3342-4346-88bd-8c5f717568b9",
+    "rgb_id": 139,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e3bbaafb-3925-4587-9b35-04e446adc712",
+    "rgb_id": 140,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "267b1f69-bee4-4425-9126-c53f7f7b014b",
+    "rgb_id": 140,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f7d785c3-396f-4050-a18b-55d508cb00f4",
+    "rgb_id": 141,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "21920f11-8ef8-4396-a105-5395d7e9143d",
+    "rgb_id": 141,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "598143ba-21c6-4ba2-bde2-ffbe62d67f7e",
+    "rgb_id": 142,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c27bafba-d18f-4700-8c5f-ba0776df55a1",
+    "rgb_id": 142,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "782b942c-bc34-480c-a2fe-8fbab54aea40",
+    "rgb_id": 143,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "36693a4a-a4ca-463a-8f83-f60f78d662c6",
+    "rgb_id": 143,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5b37c5d7-6b8f-4c7c-9b41-74476edea277",
+    "rgb_id": 144,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "40b08b32-b4c6-4234-9ee4-f35e16ba56a4",
+    "rgb_id": 144,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "e3dc1201-af19-4981-8684-891b4304aafa",
+    "rgb_id": 145,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "bd6a852b-8a2b-400c-a191-b5472eab9f2a",
+    "rgb_id": 145,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0160d3f7-3c57-4026-acb1-0d7c6cb3586d",
+    "rgb_id": 146,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7a39fc1d-ed99-40b0-a94c-fd2fdbe90319",
+    "rgb_id": 146,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "2a3567b6-9e9d-49e1-a597-74ced3e450d7",
+    "rgb_id": 147,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5ae84a7b-b286-4585-bd7e-84fc5442dc3a",
+    "rgb_id": 147,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "fa34e179-5e71-4ad5-a7c8-db89d014a068",
+    "rgb_id": 148,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a32cdc5f-b708-4d95-a0d7-8d52548b8bb3",
+    "rgb_id": 148,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "9e0948cb-2a17-4fd8-afd3-6a69a6af94eb",
+    "rgb_id": 149,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "476f80ce-609d-4f3c-967b-fb279bc9d202",
+    "rgb_id": 149,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "ac1ff298-b724-436c-94a7-13c7bbd84bd0",
+    "rgb_id": 150,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e5671717-47a4-4b68-b1a2-3b254d583261",
+    "rgb_id": 150,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "38b2e145-69d8-45c9-a109-479dfd759566",
+    "rgb_id": 151,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5bd5ecb9-330e-40d3-bae1-35647f05273b",
+    "rgb_id": 151,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3f647967-046f-4c50-ade1-cf40767b4d64",
+    "rgb_id": 152,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e40a035a-5bc4-421e-928c-7df37147bbcf",
+    "rgb_id": 152,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "77de3b65-fa72-4c15-be20-6eaa4b7d76ac",
+    "rgb_id": 153,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "152bdef6-e913-4b4c-a8c2-73a64f82b017",
+    "rgb_id": 153,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "fd2ea218-d68a-4c4b-a2c0-0bbfe6bbeccf",
+    "rgb_id": 154,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "612d1195-70ca-4e9c-b186-f687ae298128",
+    "rgb_id": 154,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "7b2782e4-941e-4b27-ae33-144ca9b19881",
+    "rgb_id": 155,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2b657c24-ece6-44ce-99d9-cd4d8dca06fd",
+    "rgb_id": 155,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "b2508e8d-959c-4b16-ad1b-c811b8cd7991",
+    "rgb_id": 156,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2cca88b0-b9da-4287-82b9-34f1b3e5662e",
+    "rgb_id": 156,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "afafc099-c192-4f37-a4de-2bcf33109306",
+    "rgb_id": 158,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "09b208ae-fac5-4ec8-aefe-6ef136b4d5f5",
+    "rgb_id": 158,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "7c3e5039-716e-4c3d-876a-f9aca9d8e70c",
+    "rgb_id": 159,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "17062a5f-c50b-4d2f-a8bd-371d24f2aa0e",
+    "rgb_id": 159,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ef6c845d-0b74-4f7c-8357-e882992e4763",
+    "rgb_id": 160,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3d0076d8-3467-46ef-aa8f-a4225cfd423a",
+    "rgb_id": 160,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "1da29719-cf0f-4b4a-9772-8e1e770b549d",
+    "rgb_id": 161,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "94f7d6ab-577c-4817-9447-1f1011cc6947",
+    "rgb_id": 161,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "e0b47f14-c42f-4ec8-9af9-af76eafbf6e0",
+    "rgb_id": 162,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "91e30123-7a74-4807-a160-d811cee41187",
+    "rgb_id": 162,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "adb45352-39d4-4b4c-8a31-c92a73e12004",
+    "rgb_id": 163,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1358d17a-0080-4339-8d95-a41415b41545",
+    "rgb_id": 163,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3956ef39-66c0-427e-a2a5-46d16d7ec0e7",
+    "rgb_id": 164,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0d56c891-267b-4755-beb0-91eaa2d2dae6",
+    "rgb_id": 164,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4709ac19-7fa7-4dab-beba-c93c16900621",
+    "rgb_id": 165,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.5,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "735d4097-fa33-463a-845c-cc68cccfae5e",
+    "rgb_id": 165,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.3333333333333333
+  },
+  {
+    "evaluation_id": "fbe6be9c-1c4a-4a50-8695-62dc5d888a60",
+    "rgb_id": 166,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "70eeabc5-8266-48cf-ba8b-ad4e8082c5a3",
+    "rgb_id": 166,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "bed17ebc-b3b9-4e53-b32d-0db4200f7baf",
+    "rgb_id": 167,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1fd25c3b-9af1-431f-8ad4-ebe592720508",
+    "rgb_id": 167,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "6ceab0ed-af1b-40c6-b5fe-0da196845f31",
+    "rgb_id": 168,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c28c574d-d9cb-473b-850b-291b8ebd87d5",
+    "rgb_id": 168,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "33a3feb7-898f-4c1b-9b0f-74d781f2afb7",
+    "rgb_id": 169,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e255a549-24ed-47d7-83b5-6566faf05e7a",
+    "rgb_id": 169,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d7758d32-c3b8-4280-8677-46644229e507",
+    "rgb_id": 170,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "37910cc2-81ff-40d4-b20f-934ae25cd9e9",
+    "rgb_id": 170,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "736952d6-aca8-455f-a3cf-85bd8c374868",
+    "rgb_id": 171,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "dd097446-9538-4bdc-b8ec-323d01fb83d1",
+    "rgb_id": 171,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "371a1d08-b166-4185-a301-cef518bc86de",
+    "rgb_id": 172,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "178895c0-a0c7-43f8-af93-615924aadb6e",
+    "rgb_id": 172,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "839d71ef-d006-44c2-b96a-1f5ca209c22a",
+    "rgb_id": 173,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fe4f3a07-8c77-4c0a-9a98-7366be3bfe48",
+    "rgb_id": 173,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "dc5835b3-fed3-47f5-99e2-1bd80e1ec208",
+    "rgb_id": 174,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9d26d51d-f635-4438-a285-bec0e5ccd555",
+    "rgb_id": 174,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d960b8c3-4a2e-4b17-93c2-991eafc547ee",
+    "rgb_id": 175,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f6ff4d4c-47af-4309-9bf3-0491895ba5cf",
+    "rgb_id": 175,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7b09bb25-3804-4100-bd2e-c74168cb3a2d",
+    "rgb_id": 176,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d87185e1-5420-47a0-95cf-5c2b95c08db0",
+    "rgb_id": 176,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a3871704-d9e0-4ce2-99b6-c528d9b94d0d",
+    "rgb_id": 177,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "bb998ce0-590c-4d63-a449-8062fb360b7e",
+    "rgb_id": 177,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.3333333333333333
+  },
+  {
+    "evaluation_id": "d4278971-ee42-4070-b57a-b122e3edf17d",
+    "rgb_id": 178,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ff8e6c4a-5c84-4ac4-801f-cb845ec8437d",
+    "rgb_id": 178,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "765f7777-590a-4f9b-b171-0a69d21ebcfa",
+    "rgb_id": 179,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "818b9351-a28e-4f30-93ea-02472d15f5db",
+    "rgb_id": 179,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c409a3a5-33fe-4bb9-8c0e-70a813293785",
+    "rgb_id": 180,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7b7915fd-7998-4f8e-8635-d7a779362994",
+    "rgb_id": 180,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0f5ba8f2-7238-4e26-889a-09b927390472",
+    "rgb_id": 181,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "10cd103e-abb0-4d8a-a0f9-f799c6e01b79",
+    "rgb_id": 181,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e4b43fd7-8590-4e51-809e-ea30d7d141de",
+    "rgb_id": 182,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "bbd82dfc-37bc-42c5-9e14-91df1214ccee",
+    "rgb_id": 182,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "15da18e1-75e1-445d-86d2-dea31b2da479",
+    "rgb_id": 183,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0d1cb7e0-d3e0-43a2-a4a2-6ceb95c93d37",
+    "rgb_id": 183,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "aa182f2f-4325-477e-929c-3e5b18a61d05",
+    "rgb_id": 184,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e80699d7-3ee0-4034-8f55-ed0cbf92ff63",
+    "rgb_id": 184,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a5623b75-87d4-43f1-b550-a422783f4070",
+    "rgb_id": 185,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "480b5d35-48ff-4079-adc7-e6beb2f80a4e",
+    "rgb_id": 185,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "88412f35-4843-47cb-be4d-05be6784db2d",
+    "rgb_id": 186,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "b3b4f051-9615-47ce-bc5e-3ab2b8400b1a",
+    "rgb_id": 186,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "2e6d7c77-c2f3-4ea6-85d7-befc78e7af24",
+    "rgb_id": 187,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "269ee0a5-3f69-454e-94e0-05c0d7dc6b41",
+    "rgb_id": 187,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "970bc73c-40fc-4e66-b50a-119e069b3945",
+    "rgb_id": 188,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1c2f71a6-9d96-4edf-b320-eb9e6220c226",
+    "rgb_id": 188,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c1c773fe-2619-4a3b-b6f5-478c49568e23",
+    "rgb_id": 189,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a1827969-4869-4f53-8b62-0683d3ea1cdf",
+    "rgb_id": 189,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "37ae909e-c960-4ebb-942b-c3180cb03c45",
+    "rgb_id": 190,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "215e2c82-2d3f-42f9-b536-fd387a9a90c0",
+    "rgb_id": 190,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "578dacd6-c615-4c94-a437-17e6fa2e2c3c",
+    "rgb_id": 191,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "74622478-3092-4ce4-9715-31a58e4e0b58",
+    "rgb_id": 191,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "52280973-8e7d-476e-9d4c-84bb14cb903d",
+    "rgb_id": 192,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2f582d0e-6a40-45e0-8427-1fec6cd19ba6",
+    "rgb_id": 192,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3731d901-9c08-4256-beca-b47e069c9806",
+    "rgb_id": 193,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9c9bf2d4-5fb7-4455-953c-a8998af72c24",
+    "rgb_id": 193,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "19f2bb99-685e-4dba-b375-c43b49a31a36",
+    "rgb_id": 194,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "94a39630-0f6e-4de1-ab31-e93418c5beda",
+    "rgb_id": 194,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "63544af7-524e-46b9-89d1-56509866b8b3",
+    "rgb_id": 195,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "52e4ed20-e7b4-48f6-8679-ff6a06529439",
+    "rgb_id": 195,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "b5c2d24a-5268-4309-b47d-f7406cd26a51",
+    "rgb_id": 196,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2a60b70d-b8fb-4b88-950b-715ff125cff8",
+    "rgb_id": 196,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "d42c3276-0295-492f-bb51-36ca6b600ae7",
+    "rgb_id": 197,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5f1f103b-7989-4893-b119-77966ca89115",
+    "rgb_id": 197,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f8031e68-a456-4d3d-8ed6-b2116dca8e9b",
+    "rgb_id": 198,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1382810d-989d-4e6a-afc0-bd074e5b76c4",
+    "rgb_id": 198,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "e23c9bde-0bde-4fa8-ad7c-45caa1eb8a26",
+    "rgb_id": 199,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8d273f51-8352-4dfb-9f05-425a4c0369f4",
+    "rgb_id": 199,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.25
+  },
+  {
+    "evaluation_id": "a86813c2-48e9-42e8-88e7-34597deed36a",
+    "rgb_id": 200,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e61180be-79d8-405f-90f5-7b0021585565",
+    "rgb_id": 200,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "aac612ee-f127-467a-a87d-0c0d3bb58cd9",
+    "rgb_id": 201,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1af55c6a-161d-4e26-91e3-71354fffed4e",
+    "rgb_id": 201,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "bdae8741-cca9-43d2-81ee-33fff7fd4824",
+    "rgb_id": 202,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a6714127-c72d-42b6-adc5-6c5e60286112",
+    "rgb_id": 202,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a5d14868-e516-4a31-81b1-ee1efbb87507",
+    "rgb_id": 203,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4f0e6650-ed92-47e5-873a-c35d123ff5e0",
+    "rgb_id": 203,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0d90a074-f5b9-41a7-a6b7-f5c515b0eca2",
+    "rgb_id": 204,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1ac6c843-1b66-45fa-9fd8-31382af6981b",
+    "rgb_id": 204,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a711d335-472a-4eb7-b3b2-7a946f412b74",
+    "rgb_id": 205,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "90a9a8e9-4110-496c-af20-fadddbb92922",
+    "rgb_id": 205,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3a3e5dbd-6361-4254-880c-646992486389",
+    "rgb_id": 206,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "98664327-2594-4685-9689-cf0c77c3901a",
+    "rgb_id": 206,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "8936a351-1b12-47b2-bf8c-643faf6d9894",
+    "rgb_id": 207,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1b64f52a-e693-4b9d-8a06-ae3a03b4805a",
+    "rgb_id": 207,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "463e2aae-26e4-424e-afad-8b3eea2079b4",
+    "rgb_id": 208,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "67459f46-27e3-41e7-b751-00cb4cd700b4",
+    "rgb_id": 208,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "11c9b2c4-1158-4a80-a957-1d24cf49cc31",
+    "rgb_id": 209,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fe1bbf95-853e-4085-8980-0b4482b048e5",
+    "rgb_id": 209,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d4c10e41-3376-4616-b7b9-d6bf9b9576ea",
+    "rgb_id": 210,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e547edd1-4f1f-4b72-a6ed-e534c5e58d0a",
+    "rgb_id": 210,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f5ba9287-2874-404e-8226-d2ca57321d74",
+    "rgb_id": 211,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a6b690c5-163f-4ef9-97e1-e0c1c6cfd9f8",
+    "rgb_id": 211,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "eca91c2a-af65-45df-bbbe-e65a03b6d492",
+    "rgb_id": 212,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a298a494-bb19-4143-b6c4-c80cfd41beca",
+    "rgb_id": 212,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c015cf6d-844f-4939-b233-a134cb43049a",
+    "rgb_id": 213,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "70f805e0-4592-40b2-9296-1bcb8f17f40f",
+    "rgb_id": 213,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "56648b6b-f4fe-4fd0-8dcd-4b3c103ef4bd",
+    "rgb_id": 214,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4bedae45-ced3-4a85-ac4b-3fc8dd7ee764",
+    "rgb_id": 214,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4497173d-2740-488e-8c95-530dcf5158fa",
+    "rgb_id": 215,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "2491d95d-bb50-4473-bbee-d0271d26de83",
+    "rgb_id": 215,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "c0052864-5cc6-4950-ac43-5aac7e6b717a",
+    "rgb_id": 216,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f6ac09af-125d-4239-90d7-75b4b4be9372",
+    "rgb_id": 216,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "2bd57c46-dbce-4c51-84e6-a54c1d0c1eec",
+    "rgb_id": 217,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0630ef1a-6c83-4a04-9d1e-70afd152e891",
+    "rgb_id": 217,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "faa7142c-8eb8-4b39-809b-1ef7c9895fc5",
+    "rgb_id": 218,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5a3adbd8-38f5-4fdb-b1b7-38abdbe0c36f",
+    "rgb_id": 218,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7ce82c7f-185b-4e57-a09e-93db261d6981",
+    "rgb_id": 219,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d0283fcd-aa13-45b8-998d-98c31892248c",
+    "rgb_id": 219,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9df497a3-e709-41b8-965a-f9f4850cd15f",
+    "rgb_id": 220,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "52d076ec-43c4-4793-ba1e-e84d9ef2f85f",
+    "rgb_id": 220,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "77933aad-38f7-48b2-854f-4d22454e5ab9",
+    "rgb_id": 221,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "52504810-9e15-4f04-8eb3-b90a88bce3ae",
+    "rgb_id": 221,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3011dd3f-0284-4db2-9070-1dd9abc67094",
+    "rgb_id": 222,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c993b2ae-1e88-4122-bf3c-ecc7106ce017",
+    "rgb_id": 222,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0cec86e6-ba4e-4263-b70f-869734b810c3",
+    "rgb_id": 223,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e0a7d025-dc9e-4b5d-8e82-60ab22129718",
+    "rgb_id": 223,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d749087f-0f9f-4e8e-9ccf-96b1f47892cd",
+    "rgb_id": 224,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c5f4e8d7-5cf6-4844-ad26-fd98d599fcef",
+    "rgb_id": 224,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f228d0d1-1e75-435f-a65b-a5e1b0a1f366",
+    "rgb_id": 225,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c3991266-47cf-4ffd-8e41-f5fdd5dd8ea1",
+    "rgb_id": 225,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5751303a-3832-47d2-bf5c-fcc532750c43",
+    "rgb_id": 226,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "75b984f1-7f12-4816-9b7f-7ea72f143400",
+    "rgb_id": 226,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a4e9b3b8-ab90-42ab-b51d-e235a222ffcf",
+    "rgb_id": 227,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "706f0d20-8df1-488b-a2ce-852f4fd7d4fe",
+    "rgb_id": 227,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d7bd110f-c95f-4644-96ee-7fae4fc95f8c",
+    "rgb_id": 228,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "841243db-7403-4fa2-9b89-d386011812f3",
+    "rgb_id": 228,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b0b2d031-6530-4aff-a268-0abbd3690217",
+    "rgb_id": 229,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3f7bf264-6723-4cf9-b124-3d2d17b5520c",
+    "rgb_id": 229,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "8a545609-8e60-43b2-9b25-25b875efdbdc",
+    "rgb_id": 230,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "87ac41fc-a928-438d-bab3-4d62053cc486",
+    "rgb_id": 230,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "36c1b5a7-1ee7-443b-8b56-969f8ae3914a",
+    "rgb_id": 231,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d409764b-d38d-452f-baa0-117d5be5c3e7",
+    "rgb_id": 231,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "62a84787-666e-4fc7-b806-7d4bc8d169e5",
+    "rgb_id": 232,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1c56acdc-2a7b-43bd-92f2-14bb4be7dd23",
+    "rgb_id": 232,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "06a202b4-d4aa-44d8-a94a-6b91fc620f39",
+    "rgb_id": 233,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cae68379-3f12-4612-ad4a-2834a59f806a",
+    "rgb_id": 233,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a2cb7e70-76eb-444a-8f20-d6cdafe0862d",
+    "rgb_id": 234,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "6eaa6465-f0e6-46d7-932f-11aec70cd088",
+    "rgb_id": 234,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "bfc4374f-6d27-49db-813b-48f49f32df0f",
+    "rgb_id": 235,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "68b3432e-deb6-4297-b9ff-808b9c1763e5",
+    "rgb_id": 235,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d57b4fad-9177-41a2-b8e7-fe504c744b22",
+    "rgb_id": 236,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "775c94db-322a-48b3-b0c3-2c9d89ccaf27",
+    "rgb_id": 236,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "fadcce76-b980-48ca-b028-6b3bf61a801c",
+    "rgb_id": 237,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f08f340d-87ce-4b87-bdc1-c5af002f509a",
+    "rgb_id": 237,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5dd75133-824e-448d-8d79-7b8040a874e2",
+    "rgb_id": 238,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9b2cb700-5d72-4bc0-98c9-0c2b7dbbc654",
+    "rgb_id": 238,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "6bd1eb7a-3bbc-44d5-b831-3777593de7b1",
+    "rgb_id": 239,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "59428f39-bcc2-4300-9965-7634e7be7a73",
+    "rgb_id": 239,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "46a1952b-475a-4b65-9d91-f347c3bc8ede",
+    "rgb_id": 240,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ffaf5bd6-84f1-4010-9141-a7eb7ed4918f",
+    "rgb_id": 240,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f76ce640-529a-455e-901f-3e7f5d65d2c8",
+    "rgb_id": 241,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a39b3176-c898-40f1-9ce9-3a40843b2f14",
+    "rgb_id": 241,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fcbdaa8b-6e2a-4f6a-89a3-8198a374b3e6",
+    "rgb_id": 242,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f71f03a4-11ba-4931-bc0c-2f1478e6ed39",
+    "rgb_id": 242,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "87213e13-971d-4176-9165-d0cdf8e56f93",
+    "rgb_id": 243,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e0cf19ba-1dc4-407a-84e2-d7c03aa4004e",
+    "rgb_id": 243,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "9bed9388-3890-4069-837e-c442d1d8dae0",
+    "rgb_id": 244,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ae23e0a9-99ec-4bb8-87fd-7b9ea427bb5d",
+    "rgb_id": 244,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "32a4f9d0-943b-480e-a9f3-2eab230cfea8",
+    "rgb_id": 245,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4cd13279-46da-4c26-a185-d196babd0715",
+    "rgb_id": 245,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c63c4f88-e561-4e15-9d4a-fbfe1e1e95dd",
+    "rgb_id": 246,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "17509e23-2cb1-49cb-a643-31bedb055cca",
+    "rgb_id": 246,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "b9ad2aa5-6992-43ab-a8bb-192c6b52389c",
+    "rgb_id": 247,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4c689ac3-240f-488b-8ec4-9f53a6ffcc19",
+    "rgb_id": 247,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "1dd21ecf-4dd4-430e-818c-20fb50f8b68f",
+    "rgb_id": 248,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "618493c5-8aea-4ae6-b847-ac803710f68d",
+    "rgb_id": 248,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5bb04c77-4f4e-4876-ae85-4753a89f023b",
+    "rgb_id": 249,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7e817cc5-ebae-4b6b-936c-6c75876afddd",
+    "rgb_id": 249,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4ecca7ef-02e0-47a9-8c6f-fbc87f849145",
+    "rgb_id": 250,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c9d8ded3-0bb8-4a69-ba8c-a0330e1fe03a",
+    "rgb_id": 250,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "208df5b0-ee58-4253-9ab5-cfa9b2911d4e",
+    "rgb_id": 251,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "6d8e89af-7325-49db-9234-1b4c1d315a2e",
+    "rgb_id": 251,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "c34df327-5745-40e3-9c73-505fc7f58bee",
+    "rgb_id": 252,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "75f7683f-5697-476b-99de-f6fb6d05ff14",
+    "rgb_id": 252,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "f6078acd-cc10-42b7-b657-3f0a2f301688",
+    "rgb_id": 253,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "78a68dda-cd78-4d1a-812d-445698cc7c44",
+    "rgb_id": 253,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "dbb4e35e-5609-4624-9b8a-bd1179028915",
+    "rgb_id": 254,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4c6a1a4f-910b-47c7-b3d5-7f8922a2f98a",
+    "rgb_id": 254,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "54f1d129-fe59-4eb3-9853-2b2fd71d0a60",
+    "rgb_id": 255,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "1dc3c13b-3992-4023-877b-be7f471c4318",
+    "rgb_id": 255,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5f5bf7ed-a1d5-41d4-9c1d-a36a8f946788",
+    "rgb_id": 256,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7ee0d16a-1d86-4a2d-b42d-154558328b8b",
+    "rgb_id": 256,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "d3c80690-463b-4b98-b3a9-05c735f0d992",
+    "rgb_id": 257,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d728d7a1-4dac-4934-9c08-04d0f1f92629",
+    "rgb_id": 257,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "bb7018bf-9bd7-4582-8b3b-0d8ecc2b87e0",
+    "rgb_id": 258,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7d34d72e-9bb7-4dc2-b515-7ee4cb73c077",
+    "rgb_id": 258,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "650aa0fb-c7d5-4071-84fc-ed2092d43de6",
+    "rgb_id": 259,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.3333333333333333
+  },
+  {
+    "evaluation_id": "9e7ff25a-f741-45f0-ae92-50bbd836570d",
+    "rgb_id": 259,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "e2f0d871-ead2-47aa-83dd-4d104dc20b2d",
+    "rgb_id": 260,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3a58c9c1-efad-4832-9167-ce687b59d865",
+    "rgb_id": 260,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1c1fa3f3-73b8-4dbc-bc50-032f0c3422f2",
+    "rgb_id": 261,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "281d26ba-fdf3-4f2c-b6ba-72b36e495380",
+    "rgb_id": 261,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "320facae-8a41-4385-9acc-7fa0f3d506b1",
+    "rgb_id": 263,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f5ca0922-2467-41f7-9419-49feb0f6a5f2",
+    "rgb_id": 263,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5a9d6359-3afa-482d-8c96-0833bf7baa48",
+    "rgb_id": 264,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "3d7143b6-2487-4263-b5cd-97b547136e08",
+    "rgb_id": 264,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c1387b0a-28dc-433d-9b05-b32bbe3f5d91",
+    "rgb_id": 265,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "87ef2570-c10c-445d-ad1a-a12782e1e82c",
+    "rgb_id": 265,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "fbc035d8-24da-4840-a6d1-87b72a4090bb",
+    "rgb_id": 266,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "457bcc4c-7363-42c0-b833-0abfc0873cb1",
+    "rgb_id": 266,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3636cfb1-c629-49ef-8ca3-1c726c196297",
+    "rgb_id": 267,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a72dc27c-76fe-4730-8fc0-5da85744580c",
+    "rgb_id": 267,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0069d98d-8595-4253-b961-c937591303b5",
+    "rgb_id": 268,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "0e6b4984-b746-4baa-96d0-9f76f9e30800",
+    "rgb_id": 268,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "4ad9b43e-5407-4660-b00a-4116273020f6",
+    "rgb_id": 270,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4ec3b43a-8a9c-4b3c-93d6-ff6f3edc4882",
+    "rgb_id": 270,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "feb83a4f-5e06-48fc-9144-5f60499c661b",
+    "rgb_id": 271,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f1960b4d-3489-4717-a86c-e9ba18ada603",
+    "rgb_id": 271,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "dc16f61e-7776-42a9-8464-acf90b4f78a8",
+    "rgb_id": 272,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "35b09e94-6e85-4933-8208-ca839311976a",
+    "rgb_id": 272,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "0f2093d8-72fc-472c-86db-91578e540548",
+    "rgb_id": 273,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d729cdb8-5ccc-402e-80a0-679ef0915c6e",
+    "rgb_id": 273,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a3226f6f-c3a1-4ad1-9713-2bf7723be4d0",
+    "rgb_id": 274,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a0374a79-2b2c-4e59-9306-587a2e3876f6",
+    "rgb_id": 274,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "25a1b1d6-a509-4998-91f8-332378d039eb",
+    "rgb_id": 275,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "becb9b4a-bbd2-4e80-955b-f99b015678e5",
+    "rgb_id": 275,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "acc16c38-2200-4550-b1ae-fba87506599b",
+    "rgb_id": 276,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5a71508c-e415-4b1b-b6de-325a8fa8c93d",
+    "rgb_id": 276,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "d3cd7d5d-0310-4bf7-819b-50c00cc9889b",
+    "rgb_id": 277,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "526a4360-3c67-462b-bfe4-852ee91457da",
+    "rgb_id": 277,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "13a340f4-1a01-46a1-9766-37e4039065f6",
+    "rgb_id": 278,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "dca01514-8890-49cb-8b4c-4ec762404e45",
+    "rgb_id": 278,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "b563103e-77a1-471e-bf52-f7ecbc910883",
+    "rgb_id": 279,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "901b28c5-d7e5-4b95-b221-872475af77c8",
+    "rgb_id": 279,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "5b6d8593-667d-44fe-b8d1-2db4aea96bfd",
+    "rgb_id": 280,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "637cb740-01fa-49cc-b2c5-753daae8351d",
+    "rgb_id": 280,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "48c8f3e9-640c-4348-ada1-e1295c707227",
+    "rgb_id": 281,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "41aace79-1da0-414b-bdef-09b16581b361",
+    "rgb_id": 281,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "ed808e4b-b0f3-4460-9b12-a4a7711c5b5a",
+    "rgb_id": 282,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "cbdcb5ba-f297-42c1-88b2-7739f945a382",
+    "rgb_id": 282,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "f276cd78-8272-4f1b-bc9f-ba911c8cbdce",
+    "rgb_id": 283,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "e2fd630f-88bc-4f60-8175-3d7a2217cb99",
+    "rgb_id": 283,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7ec31a86-46b1-4e1f-b360-f4ece60ebc94",
+    "rgb_id": 284,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "853b3a73-b3b2-48b0-8ae0-ec3f7f0eb65c",
+    "rgb_id": 284,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "dc2bc965-75fc-48d2-852c-940b29e498fa",
+    "rgb_id": 285,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "262b0272-2213-4d34-8474-daf57443a6ec",
+    "rgb_id": 285,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7ec7a1c9-3135-4089-9f12-c6f4d0e17fce",
+    "rgb_id": 286,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "52432cc3-3bce-40f9-be78-89655e79c04d",
+    "rgb_id": 286,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1431d4bf-1459-4d3d-8754-6ad7e30445c6",
+    "rgb_id": 287,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "66a99bb6-6f8a-4a96-baa5-67aa9b9bf281",
+    "rgb_id": 287,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "7c41d4a9-9440-47ac-8db9-02073b93fce4",
+    "rgb_id": 288,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4d5d94ec-b872-4576-ae17-6a90c557dde9",
+    "rgb_id": 288,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "a7b72d7b-603b-47ff-aec8-8fad9c1a7154",
+    "rgb_id": 289,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "4ab0cefb-57f4-448c-9a6b-dc1e9ea6d2b1",
+    "rgb_id": 289,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "22e1791a-0a7b-42b7-af9b-a765642f7368",
+    "rgb_id": 290,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "6384ee16-0b61-4e36-a3d9-64a10b6634c0",
+    "rgb_id": 290,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "1fdc4fcc-f3c7-435b-adcd-2900a0f1e557",
+    "rgb_id": 291,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "aa59f520-3a62-4b3e-8925-b93b44b42987",
+    "rgb_id": 291,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "69a80934-e748-4453-b7eb-fb36536843b9",
+    "rgb_id": 292,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "f50562cb-e517-4a63-a302-c80e7b01ae1c",
+    "rgb_id": 292,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.5
+  },
+  {
+    "evaluation_id": "764623bb-7a2d-4336-934c-9c11da7512c1",
+    "rgb_id": 293,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "38acb7e5-e08e-4857-8bd8-de2286c1d792",
+    "rgb_id": 293,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "3bbf3afc-a775-4288-bcc5-7838b6d5c0cd",
+    "rgb_id": 294,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "5fee3aa2-e9de-4cf7-bee6-cad79187bad8",
+    "rgb_id": 294,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "726688a7-b892-4765-b199-fb7b09b87d05",
+    "rgb_id": 295,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "26a91405-65bd-44d6-ac2e-f6fee9d0257b",
+    "rgb_id": 295,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c8b559a3-edab-4ce1-b087-e259eb0169ab",
+    "rgb_id": 296,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "a2b59c4d-f686-4cf8-af0e-ba033bab6666",
+    "rgb_id": 296,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "c8fec0df-d2e5-47c7-b824-8563dcba2f65",
+    "rgb_id": 297,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "7d76a6b6-f9c4-4080-ab9e-f7e8fd1a1a82",
+    "rgb_id": 297,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "78442f9a-cd73-4052-9936-b5e8466c592a",
+    "rgb_id": 298,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "9c47d6c9-d2be-431e-81d8-ba9cc34ee828",
+    "rgb_id": 298,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 1.0,
+    "ragas_faithfulness": 0.0
+  },
+  {
+    "evaluation_id": "fa07a16d-da3f-47ff-9934-0fcaea997445",
+    "rgb_id": 299,
+    "group": "positive",
+    "ground_truth": 1,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 1.0
+  },
+  {
+    "evaluation_id": "66034b4a-d90b-4153-b7e5-d8442ec9f4a2",
+    "rgb_id": 299,
+    "group": "negative",
+    "ground_truth": 0,
+    "variably_faithfulness": 0.0,
+    "ragas_faithfulness": 0.0
+  }
+]

@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Benchmark-specific
+# RGB dataset clone (users clone it themselves; it's not ours to redistribute)
+rgb/data/RGB/
+
+# macOS metadata
+.DS_Store
+
+# Local virtualenv conventions
+.venv/
+venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Per-user environment files
+.env
+.env.local
+
+# Output files from local re-runs (ours are committed under rgb/results/)
+rgb/results/local-*.json

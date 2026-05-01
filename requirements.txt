@@ -1,0 +1,15 @@
+# Pin minimum versions; install the latest patches with `pip install -r requirements.txt --upgrade`.
+
+# variA/Bly client SDK (PyPI). Required only if you re-run the variA/Bly side.
+variably-sdk>=2.8.0
+
+# RAGAS faithfulness scorer + its OpenAI judge dependency.
+ragas>=0.1.0
+langchain-openai>=0.1.0
+datasets>=2.14.0
+
+# Database driver. Required only if you pull variA/Bly scores back out of a Postgres-compatible store.
+psycopg2-binary>=2.9.0
+
+# Standard utilities.
+openai>=1.0.0
