@@ -1,0 +1,5926 @@
+{
+ "description": "RGB en, 296 samples x 2 cases. One row per case with every scorer's score. variably_4_2_1: variA/Bly 4.2.1 faithfulness, scored 2026-10-24 through the full production path (semantic build d96c64f). ragas_faithfulness / deepeval_*: April 2026 scores (gpt-4o-mini judge) on the identical answer-and-passage pairs. deepeval_hallucination: higher = more hallucinated (inverted for approval). null = no score returned. variably_april_2026: the April 2026 scorer, kept for history. A case is approved when its faithfulness >= 0.5.",
+ "n_cases": 592,
+ "cases": [
+  {
+   "rgb_id": 0,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.3333333333333333,
+   "deepeval_faithfulness": 0.6666666666666666,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 0,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 1,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 1,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 2,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 2,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 3,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 3,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 4,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 4,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 5,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 5,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 6,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 6,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 7,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 7,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 8,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 8,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 9,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 9,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.6666666666666666,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 10,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 10,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 11,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 11,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 12,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0.5,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 12,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0.5,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 13,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 13,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 14,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 14,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.3333333333333333,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 15,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 15,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 16,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 16,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 17,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 17,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 18,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 18,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 19,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 19,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 20,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 20,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 21,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 21,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 22,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 22,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 23,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 23,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 24,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 24,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 25,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 25,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 26,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 26,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 27,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 27,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 28,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 28,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 29,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 29,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 30,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 30,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 31,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 31,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 32,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 32,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.4,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 33,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 33,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 34,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 34,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 35,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 35,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.4,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 36,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 36,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 37,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 37,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.25,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 38,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 38,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.75,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 39,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.8333333333333334,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 39,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.8333333333333334,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 40,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 40,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 41,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 41,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 42,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 42,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 43,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 43,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 44,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 44,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 45,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 45,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 46,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 46,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 47,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 47,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 48,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 48,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 49,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 49,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 50,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 50,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 51,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 51,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 52,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 52,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 53,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 53,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 54,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 54,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 55,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 55,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 56,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 56,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 57,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 57,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 58,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 58,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 59,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 59,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 60,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 60,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 61,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 61,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 62,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 62,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 63,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 63,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 64,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 64,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 65,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 65,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 66,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 66,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 67,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 67,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 68,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 68,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 69,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 69,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 70,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 70,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 71,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 71,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 72,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.3333333333333333,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 72,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.6666666666666666,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 73,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 73,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 74,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 74,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 75,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 75,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 76,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 76,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 77,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 77,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 78,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 78,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 79,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 79,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 80,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 80,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 81,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 81,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 82,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 82,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 84,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 84,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.75,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 85,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 85,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 86,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 86,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 87,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 87,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 88,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 88,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 89,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 89,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 90,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 90,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 91,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 91,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 92,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 92,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 93,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 93,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 94,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 94,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 95,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.75,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 95,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 96,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 96,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 97,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 97,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 98,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 98,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 99,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 99,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 100,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 100,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 101,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 101,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 102,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 102,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 103,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.25,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 103,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.4,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 104,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 104,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 105,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 105,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 106,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.6666666666666666,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 106,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 107,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 107,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.3333333333333333,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 108,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 108,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 109,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 109,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 110,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 110,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 111,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 111,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 112,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 112,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.4,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 113,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 113,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 114,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 114,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 115,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 115,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 116,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 116,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 117,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 117,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 118,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 118,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 119,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 119,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 120,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 120,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 121,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 121,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 122,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 122,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 123,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 123,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 124,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 124,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 125,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 125,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 126,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 126,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 127,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 127,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 128,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 128,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 129,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 129,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 130,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 130,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 131,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 131,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 132,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 132,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 133,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 133,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 134,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 134,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 135,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 135,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 136,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 136,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 137,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 137,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 138,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 138,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 139,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 139,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 140,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 140,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 141,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 141,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 142,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 142,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 143,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 143,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 144,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 144,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 145,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 145,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 146,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 146,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 147,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 147,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 148,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 148,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 149,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 149,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 150,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 150,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 151,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 151,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 152,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 152,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 153,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 153,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.3333333333333333,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 154,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 154,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 155,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 155,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 156,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 156,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 158,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 158,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 159,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 159,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 160,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 160,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 161,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.6666666666666666,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 161,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.3333333333333333,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 162,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 162,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.4,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 163,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 163,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 164,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 164,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 165,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.3333333333333333,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 165,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 166,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 166,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 167,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 167,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 168,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 168,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 169,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 169,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 170,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 170,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 171,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 171,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 172,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 172,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 173,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 173,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 174,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 174,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 175,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 175,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 176,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 176,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 177,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.3333333333333333,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 177,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 178,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 178,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 179,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 179,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 180,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 180,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 181,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 181,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 182,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 182,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 183,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 183,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 184,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 184,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 185,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 185,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 186,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 186,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 187,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 187,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 188,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 188,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 189,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 189,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 190,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 190,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 191,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 191,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 192,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 192,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 193,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 193,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 194,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 194,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 195,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 195,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 196,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 196,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 197,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 197,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 198,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 198,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 199,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.25,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 199,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 200,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 200,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 201,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 201,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 202,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 202,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 203,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 203,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 204,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 204,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 205,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 205,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 206,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 206,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 207,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 207,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 208,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 208,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 209,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 209,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 210,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 210,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 211,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 211,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 212,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 212,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 213,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 213,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 214,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 214,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 215,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 215,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 216,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 216,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.4,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 217,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 217,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.6666666666666666,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 218,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 218,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 219,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 219,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 220,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 220,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 221,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 221,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 222,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 222,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 223,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 223,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 224,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 224,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 225,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 225,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.75,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 226,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 226,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 227,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 227,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 228,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 228,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 229,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 229,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 230,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 230,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 231,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 231,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 232,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 232,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 233,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 233,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.3333333333333333,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 234,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 234,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 235,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 235,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 236,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 236,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 237,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 237,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 238,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 238,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 239,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 239,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 240,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 240,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 241,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 241,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 242,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 242,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 243,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 243,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 244,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 244,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 245,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 245,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 246,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 246,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 247,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 247,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 248,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 248,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 249,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 249,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 250,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 250,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 251,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 251,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 252,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 252,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 253,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 253,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 254,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 254,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 255,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 255,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 256,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 256,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.5,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 257,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 257,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 258,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 258,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 259,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 259,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.3333333333333333,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 260,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 260,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 261,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 261,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 263,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 263,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 264,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 264,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 265,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 265,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 266,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 266,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 267,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 267,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 268,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 268,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 270,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.5,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 270,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 271,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 271,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 272,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 272,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 273,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 273,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 274,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 274,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 275,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 275,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 276,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 276,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 277,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 277,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 278,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 278,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 279,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 279,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 280,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 280,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 281,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 281,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 282,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 282,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 283,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 283,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 284,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 284,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 285,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 285,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.6,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 286,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 286,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 287,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 287,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 288,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 288,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.75,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 289,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 289,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 290,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 290,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 291,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 291,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 292,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.5,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 292,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 293,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 293,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 294,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 0.2,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 294,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 295,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 295,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 296,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 296,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 1.0
+  },
+  {
+   "rgb_id": 297,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 297,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 298,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 1.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 298,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 1,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 0.8,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 299,
+   "group": "negative",
+   "ground_truth": 0,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 0.0,
+   "deepeval_faithfulness": 0.0,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  },
+  {
+   "rgb_id": 299,
+   "group": "positive",
+   "ground_truth": 1,
+   "variably_4_2_1": 0,
+   "ragas_faithfulness": 1.0,
+   "deepeval_faithfulness": null,
+   "deepeval_hallucination": 1.0,
+   "variably_april_2026": 0.0
+  }
+ ]
+}
