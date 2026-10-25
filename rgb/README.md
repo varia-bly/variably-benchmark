@@ -9,6 +9,20 @@ public [RGB benchmark](https://github.com/chen700564/RGB)
 n = 592 evaluations (296 RGB samples × 2 test cases each): each answer checked against the
 passages that contain it, and against distractor passages.
 
+**At a matched operating point** (RAGAS returns continuous scores, so its threshold can be
+tuned; variA/Bly's default is its operating point):
+
+| Operating point | Correct approved | Distractors approved | Precision |
+|---|---|---|---|
+| **variA/Bly 4.2.1 — default, no tuning** | **97.6%** | **27.7%** | **77.9%** |
+| RAGAS — threshold tuned to 0.6 | 96.6% | 27.0% | 78.1% |
+| RAGAS — default threshold 0.5 | 97.0% | 38.2% | 71.8% |
+
+Equal accuracy (consistent with equal AUC), reached by variA/Bly out of the box and without an
+LLM judge — deterministic, with a verdict for every case.
+
+**Each scorer at its default threshold (0.5):**
+
 | Scorer | Cases scored | Grounded approved (recall) | Distractors approved | Precision | AUC |
 |---|---|---|---|---|---|
 | **variA/Bly 4.2.1** | **592/592** | **97.6%** | **27.7%** | **77.9%** | 0.851 |

@@ -4,9 +4,10 @@ Public benchmark suite for [variA/Bly](https://www.variably.dev)'s grounding
 scoring vs popular alternatives. Reproducible scripts, raw per-sample outputs,
 and head-to-head comparison tables on public RAG datasets.
 
-> **RGB, 592 cases:** variA/Bly approves correct answers as readily as RAGAS (97.6% vs 97.0%)
-> while approving about a quarter fewer distractor cases (27.7% vs 38.2%) — deterministic, no
-> LLM judge, a score for every case. Per-case results for all four scorers in [`rgb/`](./rgb).
+> **RGB, 592 cases:** variA/Bly matches LLM-judge accuracy without an LLM judge — AUC 0.851 vs
+> RAGAS 0.852, and the same operating point at its default setting that RAGAS reaches only with a
+> tuned threshold. Deterministic, a score for every case. Per-case results for all four scorers in
+> [`rgb/`](./rgb).
 
 ---
 
@@ -25,6 +26,20 @@ Future benchmarks will land as new top-level directories
 ---
 
 ## Headline results (RGB, n=592, October 2026)
+
+**At a matched operating point** (RAGAS returns continuous scores, so its threshold can be
+tuned; variA/Bly's default is its operating point):
+
+| Operating point | Correct approved | Distractors approved | Precision |
+|---|---|---|---|
+| **variA/Bly 4.2.1 — default, no tuning** | **97.6%** | **27.7%** | **77.9%** |
+| RAGAS — threshold tuned to 0.6 | 96.6% | 27.0% | 78.1% |
+| RAGAS — default threshold 0.5 | 97.0% | 38.2% | 71.8% |
+
+Equal accuracy (consistent with equal AUC), reached by variA/Bly out of the box and without an
+LLM judge — deterministic, with a verdict for every case.
+
+**Each scorer at its default threshold (0.5):**
 
 | Scorer | Cases scored | Grounded approved (recall) | Distractors approved | Precision | AUC |
 |---|---|---|---|---|---|
