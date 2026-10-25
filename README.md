@@ -1,13 +1,13 @@
 # variA/Bly Benchmarks
 
-Public benchmark suite for [variA/Bly](https://www.variably.tech)'s grounding
+Public benchmark suite for [variA/Bly](https://www.variably.dev)'s grounding
 scoring vs popular alternatives. Reproducible scripts, raw per-sample outputs,
 and head-to-head comparison tables on public RAG datasets.
 
-> **The number nobody else publishes:** RAGAS approves **38.2%** of distractor
-> passages on the public RGB benchmark as "grounded." variA/Bly holds to
-> **6.1%** - over 6× cleaner. Same 592 question + answer + context tuples,
-> both scorers, scripts in this repo. See [`rgb/`](./rgb) for the full run.
+> **RGB, 592 cases:** variA/Bly matches LLM-judge accuracy without an LLM judge — AUC 0.851 vs
+> RAGAS 0.852, and the same operating point at its default setting that RAGAS reaches only with a
+> tuned threshold. Deterministic, a score for every case. Per-case results for all four scorers in
+> [`rgb/`](./rgb).
 
 ---
 
@@ -25,16 +25,41 @@ Future benchmarks will land as new top-level directories
 
 ---
 
-## Headline results (RGB, n=592, April 2026)
+## Headline results (RGB, n=592, October 2026)
 
-| Metric | variA/Bly | RAGAS | Notes |
+**At a matched operating point** (RAGAS returns continuous scores, so its threshold can be
+tuned; variA/Bly's default is its operating point):
+
+| Operating point | Correct approved | Distractors approved | Precision |
 |---|---|---|---|
-| **Precision @ 0.5** | **89.9%** | 71.8% | Of cases flagged "grounded", how many actually are. |
-| **FPR on distractors** | **6.1%** | 38.2% | Of cases that aren't grounded, how many were wrongly approved. **The compliance number.** |
-| Recall @ 0.5 | 54.4% | **97.0%** | Of real groundings, how many were caught. |
-| AUC | 0.748 | **0.864** | Threshold-independent ranking quality. |
+| **variA/Bly 4.2.1 — default, no tuning** | **97.6%** | **27.7%** | **77.9%** |
+| RAGAS — threshold tuned to 0.6 | 96.6% | 27.0% | 78.1% |
+| RAGAS — default threshold 0.5 | 97.0% | 38.2% | 71.8% |
 
-**Read the full report:** [variably.tech/benchmarks](https://www.variably.tech/benchmarks)
+Equal accuracy (consistent with equal AUC), reached by variA/Bly out of the box and without an
+LLM judge — deterministic, with a verdict for every case.
+
+**Each scorer at its default threshold (0.5):**
+
+| Scorer | Cases scored | Grounded approved (recall) | Distractors approved | Precision | AUC |
+|---|---|---|---|---|---|
+| **variA/Bly 4.2.1** | **592/592** | **97.6%** | **27.7%** | **77.9%** | 0.851 |
+| RAGAS faithfulness (gpt-4o-mini) | 592/592 | 97.0% | 38.2% | 71.8% | 0.852 |
+| DeepEval Hallucination (gpt-4o-mini) | 592/592 | 42.9% | 4.4% | 90.7% | 0.852 |
+| DeepEval Faithfulness (gpt-4o-mini) | **294/592** | 52.4% | 38.5% | 27.0% | 0.571 |
+
+variA/Bly 4.2.1 was scored on 2026-10-24 through its full production path; the RAGAS and DeepEval
+scores are from April 2026 on the identical 592 answer-and-passage pairs, joined case by case in
+[`rgb/results/rgb_2026-10_four_scorers.json`](./rgb/results/rgb_2026-10_four_scorers.json).
+Recompute the table with `python3 rgb/verify_2026_10.py` (standard library only).
+
+RGB's distractor passages often contain the answer, so absolute false-approval rates overstate
+every scorer's errors — compare scorers on the same cases.
+
+**Updated October 2026.** The April 2026 headline ("6.1% vs 38.2%") described an earlier scorer
+that rejected 46% of correct answers; see the [RGB README](./rgb/README.md#what-changed-since-april-2026).
+
+**Read the full report:** [variably.dev/benchmarks/rgb](https://www.variably.dev/benchmarks/rgb)
 
 ---
 
@@ -67,13 +92,13 @@ Re-running the scorers costs money and requires accounts.
 | Scorer | What you need | Per-eval cost |
 |---|---|---|
 | **RAGAS** | OpenAI API key | ~$0.030 (gpt-4o-mini judge with default RAGAS pipeline) |
-| **variA/Bly** | A free API key from [variably.tech](https://www.variably.tech) | $0.015 (SEU pricing, all-in) |
+| **variA/Bly** | An API key from [variably.dev](https://www.variably.dev) | $0.015 (SEU pricing, all-in) |
 
 variA/Bly's grounding scorer runs on Variably's hosted infrastructure -
 the algorithm is proprietary, so the runner submits via the public
 [`variably-sdk`](https://pypi.org/project/variably-sdk/) and reads the
 verdict back. To reproduce our variA/Bly column from scratch, sign up
-at [variably.tech](https://www.variably.tech) and grab an API key
+at [variably.dev](https://www.variably.dev) and grab an API key
 (free tier covers re-running this benchmark).
 
 To reproduce the RAGAS column independently, no Variably account is
@@ -139,8 +164,8 @@ not redistributed here. RGB clone instructions are in
 
 ## Get in touch
 
-- Email: [info@variably.tech](mailto:info@variably.tech)
-- Web: [variably.tech](https://www.variably.tech)
+- Email: [info@variably.dev](mailto:info@variably.dev)
+- Web: [variably.dev](https://www.variably.dev)
 - LinkedIn: [linkedin.com/company/variably](https://www.linkedin.com/company/variably/)
 
 If you spot an error in the benchmark scripts or have a suggestion for
